@@ -44,5 +44,3 @@ probs
 probs = list(probs)
 for i in range(len(labels)):
   print(f"label: {labels[i]} - probability of {probs[i].item():.4f}")
-
-  
